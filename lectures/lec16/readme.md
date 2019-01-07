@@ -136,9 +136,9 @@ As shown, the class for the facebook icon is **"fa fa-facebook-square"**. So, we
 
 ```html
 <!--facebook icon-->
-<a class="fa fa-facebook-square social" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/storymap_alpha/index.html" target="_blank"></a>
+<a class="fa fa-facebook-square social" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html" target="_blank"></a>
 ```
-This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/storymap_alpha/index.html`. Basically, the url `http://jakobzhao.github.io/geog371/lectures/lec16/storymap_alpha/index.htm` indicates where this web map application is deployed.
+This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html`. Basically, the url `http://jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.htm` indicates where this web map application is deployed.
 
 In order to put it on the right place and display properly, we define its style in `css\style-new.css`.
 
@@ -235,7 +235,7 @@ The `.modal-footer` class is used to define the style for the footer of the mo
 
 ![](img/final-page.png)
 
-To browse this application, you can visit [jakobzhao.github.io/geog371/lectures/lec16/storymap_alpha/index.html](jakobzhao.github.io/geog371/lectures/lec16/storymap_alpha/index.html).
+To browse this application, you can visit [jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html](jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html).
 
 ## References:
 

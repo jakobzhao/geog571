@@ -89,7 +89,7 @@ var gl = L.mapboxGL({
 }).addTo(map);
 ```
 
-To see the demo, please check [here](http://jakobzhao.github.io/geog371/lectures/lec13/). Please pay attention to the credit information.
+To see the demo, please check [here](http://jakobzhao.github.io/geog571/lectures/lec13/). Please pay attention to the credit information.
 
 ![](img/customized-style-brown.png)
 

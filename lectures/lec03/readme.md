@@ -32,7 +32,7 @@ Standard protocol is that a file named **index** is what will be provided by def
 > **Note:** the HTML file extension, indicating the file is written in HTML). The file structure found in my directory looks like the following.
 
 ```
- Geog371
+ Geog571
    lectures
      lec03
       │  index.html

@@ -6,7 +6,7 @@
 >
 > **Assigned:**  | **Due:**  | **Points Available** = 50
 
-Welcome to the lab session of **GEOG 371: Web Mapping**! In this lab, we will briefly introduce the Digital Earth Lab at Wilkinson 210, download the course material and more importantly, help you get familiar with the major operations on project management for web mapping. In practice, you will use the lab computer, if you use a personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
+Welcome to the lab session of **GEOG 571: Web Mapping**! In this lab, we will briefly introduce the Digital Earth Lab at Wilkinson 210, download the course material and more importantly, help you get familiar with the major operations on project management for web mapping. In practice, you will use the lab computer, if you use a personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
 # 1. Preparations
 
@@ -58,11 +58,11 @@ You will apply for a GitHub account for managing and synchronizing your web mapp
 
 In this course, I decide to store all material on GitHub instead of Canvas system. By doing so, my goal is not to create extra trouble or sharp the learn curve. Instead, hosting on github will help you save a lot of time in downloading or migrating course materials, testing lab or lecture applications. Also, more practically, a lot of companies in the geospatial industries have already used github for their project managment, such as [ESRI](https://github.com/Esri), [CartoBD](https://github.com/CartoDB), [MapBox](https://github.com/mapbox), and etc. To prepare you with the capabilities of using github, you will be familiar with an industry-level project management approach. In this lab, let us go through the procedure of downlaoding the course material as below.
 
-1\. On GitHub, each project is stored as a project repository. The repository for this course is located at [https://github.com/jakobzhao/geog371](https://github.com/jakobzhao/geog371). Please navigate to this url on a browser such as `Chrome`. As indicated by the course website url, this repository is created by me; my GitHub account name is `jakobzhao`, while the repository name is `geog371`.
+1\. On GitHub, each project is stored as a project repository. The repository for this course is located at [https://github.com/jakobzhao/geog571](https://github.com/jakobzhao/geog571). Please navigate to this url on a browser such as `Chrome`. As indicated by the course website url, this repository is created by me; my GitHub account name is `jakobzhao`, while the repository name is `geog571`.
 
 2\. On the front page of this repository, please click the green button named after `Clone or download` . To download the course material, you can click the `Download ZIP` button, as a result, a compressed file of the course material will be downloaded.
 
-3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog371.git](https://github.com/jakobzhao/geog371.git).
+3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog571.git](https://github.com/jakobzhao/geog571.git).
 
 4\. Next, open your working space on your local computer through command prompt if you are on Windows or through terminal if you are on a Mac or Linux. For example, the working space of my computer is located as `C:\Workspace`.
 
@@ -84,8 +84,8 @@ C:\Users\[your_username]>
 5\. Having the **git url**, we will need to use the command `git clone` to clone the GitHub repository to your local computer.
 
  ```powershell
-C:\Workspace\git clone https://github.com/jakobzhao/geog371.git
-Cloning into 'geog371'...
+C:\Workspace\git clone https://github.com/jakobzhao/geog571.git
+Cloning into 'geog571'...
 remote: Counting objects: 962, done.
 remote: Compressing objects: 100% (750/750), done.
 remote: Total 962 (delta 214), reused 917 (delta 177), pack-reused 0Receiving objects:  99% (953/962), 158.77 MiB | 1.60 MiB/s
@@ -97,13 +97,13 @@ Checking out files: 100% (650/650), done.
 6\. To review the files and folders in the downloaded/cloned repository, you need to `cd` into the root directory of this repository. If you are on a Mac or Linux, type `ls` to check the file list of this repository, or try `dir` if you are on a Windows. Take windows for example.
 
 ```powershell
-C:\Workspace>cd geog371
+C:\Workspace>cd geog571
 
-C:\Workspace\geog371>dir
+C:\Workspace\geog571>dir
  Volume in drive C has no label.
  Volume Serial Number is 3E8C-9A9E
 
- Directory of c:\Workspace\geog371
+ Directory of c:\Workspace\geog571
 
 09/19/2017  09:12 PM    <DIR>          .
 09/19/2017  09:12 PM    <DIR>          ..
@@ -124,7 +124,7 @@ In the root directory, there are folders like labs, lectures and readings, and f
 
 7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed `Atom` and also an `Atom` packge named `markdown-preview-enhanced`.
 
-Once `Atom` is opened, press `crtl+shift+a` to open the open prjoect dialog window, naviagte to `geog371` folder from your workspace and press `select folder`. Then the `geog371` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
+Once `Atom` is opened, press `crtl+shift+a` to open the open prjoect dialog window, naviagte to `geog571` folder from your workspace and press `select folder`. Then the `geog571` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
 
 ![](img/atom-open-project.png)
 
@@ -136,15 +136,15 @@ In the project list panel, navigate to the `readme.md` in the project tree panel
 8\. Once the course material is hosted on GitHub, it can be easily shared with a larger community. To synchronize the course material on remote GitHub repository to your local computer, you need to implement two sequential command lines `git checkout --force` and `git pull` in the root directory of the repository. Once the two commands are executed. An update notice will be shown as below.
 
 ```powershell
-C:\Workspace\geog371>git checkout --force
+C:\Workspace\geog571>git checkout --force
 Your branch is up-to-date with 'origin/master'.
 
-C:\Workspace\geog371>git pull
+C:\Workspace\geog571>git pull
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/jakobzhao/geog371
+From https://github.com/jakobzhao/geog571
    13b2cab..baf74b1  master     -> origin/master
 Updating 13b2cab..baf74b1
 Fast-forward
@@ -278,7 +278,7 @@ You can also upload the `resume.md` through `git push` command on either command
 ```powershell
 c:\Workspace\jakobzhao.github.io>git add -A
 c:\Workspace\jakobzhao.github.io>git commit -a -m "update the resume.md"
-c:\Workspace\geog371>git push
+c:\Workspace\geog571>git push
 Username for 'https://github.com': jakobzhao
 Password for 'https://jakobzhao@github.com':
 ```
