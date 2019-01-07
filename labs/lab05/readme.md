@@ -1,8 +1,8 @@
 # Lab 5: Story Map
 
-> Winter 2018 | Geography 371 | Web Mapping
+> Winter 2018 | Geography 571 | Web Mapping
 >
-> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** Th 0800 - 1150
+> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** T 1200 to 1350
 >
 > **Assigned:**  | **Due:**  | **Points Available** = 50
 

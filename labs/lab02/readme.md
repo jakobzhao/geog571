@@ -1,8 +1,8 @@
 # Lab 2: Web Programming Basics II: Javascript
 
-> Winter 2018 | Geography 371 | Web Mapping
+> Winter 2018 | Geography 571 | Web Mapping
 >
-> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** Th 0800 - 1150
+> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** T 1200 to 1350
 >
 > **Assigned:**  | **Due:**  | **Points Available** = 50
 
@@ -32,7 +32,7 @@ When you are working with javascript, some of your main goals will be to:
 
 JavaScript can be added to your website by either typing in script between two script tags, or by linking a JavaScript file to your site. Please synchronize all the course material, the file structure for this lab is structured as below:
 ```powershell
-geog371
+geog571
     labs
         lab02
         │  index.html

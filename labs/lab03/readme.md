@@ -1,8 +1,8 @@
 # Lab 3: Thematic Web Map Design
 
-> Winter 2018 | Geography 371 | Web Mapping
+> Winter 2018 | Geography 571 | Web Mapping
 >
-> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** Th 0800 - 1150
+> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** T 1200 to 1350
 >
 > **Assigned:**  | **Due:**  | **Points Available** = 50
 
@@ -12,7 +12,7 @@ To do that, the county boundaries is from [Oregon Explorer](http://oregonexplore
 
 ![](img/final_map.jpg)
 
-To get started, please synchronize the course material to the working space of your local computer. If you are working in the Digital Earth Lab, please synchronize your course material on the desktop directory.  The material for this lab is located at `[your_working_space]/geog371/labs/lab03`. Next, open the course material in Webstorm.
+To get started, please synchronize the course material to the working space of your local computer. If you are working in the Digital Earth Lab, please synchronize your course material on the desktop directory.  The material for this lab is located at `[your_working_space]/geog571/labs/lab03`. Next, open the course material in Webstorm.
 
 ## 1. Set up our Map and Add Data
 

@@ -2,7 +2,7 @@
 >
 >**Instructor:** Bo Zhao, zhao2@oregonstate.edu | **Office Hours:** TBD or by appt. @WLKN 210
 >
->**Lecture:** MWF 0800 - 0850 @WLKN 210 | **Lab:** Th 0800 to 1150 @WLKN 210
+>**Lecture:** MWF 0900 - 0950 @WLKN 210 | **Lab:** T 1200 to 1350 @WLKN 210
 >
 >**Catalog course description: WEB MAPPING (4).**
 >
