@@ -30,7 +30,7 @@ If `git` is properly installed, type `git` in command prompt or terminal will sh
 2\. In the course material, the data for today's use is in the folder of this lecture.
 
 ```url
-https://github.com/jakobzhao/geog371.git
+https://github.com/jakobzhao/geog571.git
 ```
 
 3\. Access your server via `SSH` if it is remotely deployed, or via Terminal or Command Prompt if it is deployed locally. If you are on a Linux Server, you can create and enter a workspace using the following codes:
@@ -45,14 +45,14 @@ cd Workspace
 
 ```powershell
 cd ~/Workspace
-sudo git clone https://github.com/jakobzhao/geog371.git
+sudo git clone https://github.com/jakobzhao/geog571.git
 ```
 
 
-5\. After successfully synced the material, you will see them in a sub-directory named **geog371/lec11/**, which contains the lecture material for today.
+5\. After successfully synced the material, you will see them in a sub-directory named **geog571/lec11/**, which contains the lecture material for today.
 
 ```powershell
-bo@bo-nuc:~/Workspace/geog371/lectures/lec11$ tree
+bo@bo-nuc:~/Workspace/geog571/lectures/lec11$ tree
 .
 ├── assets
 │   ├── cities.cpg
@@ -77,7 +77,7 @@ bo@bo-nuc:~/Workspace/geog371/lectures/lec11$ tree
 2 directory, 45 files
 ```
 
-> **note:** in order to browse the files under a directory. you will use the command `tree`. If you are in a windows or mac os system, you will have `tree` command by default. For some server system which does not go with a `tree` command, you need to install it by the following command in the terminal: `sudo apt-get install tree`. Then, navigate to the subdirectory `geog371/lectures/lec11`, and type `tree`,  you will see the above file tree of the subdirectory.
+> **note:** in order to browse the files under a directory. you will use the command `tree`. If you are in a windows or mac os system, you will have `tree` command by default. For some server system which does not go with a `tree` command, you need to install it by the following command in the terminal: `sudo apt-get install tree`. Then, navigate to the subdirectory `geog571/lectures/lec11`, and type `tree`,  you will see the above file tree of the subdirectory.
 
 ## 1. Styled Layer Descriptor
 
