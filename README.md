@@ -1,6 +1,6 @@
 # GEOG571: Advanced Web Mapping
 >
->**Instructor:** Bo Zhao, zhao2@oregonstate.edu | **Office Hours:** TBD or by appt. @WLKN 210
+>**Instructor:** Bo Zhao, zhao2@oregonstate.edu | **Office Hours:** M 1600 - 1900 or by appt. @WLKN 210
 >
 >**Lecture:** MWF 0900 - 0950 @WLKN 210 | **Lab:** T 1200 to 1350 @WLKN 210
 >
