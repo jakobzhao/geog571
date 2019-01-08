@@ -128,6 +128,8 @@ C:\Users\[you_username]\workspace\geog571>dir
 
 In the root directory, there are folders like labs, lectures and readings, and files like readme.md and LICENSE.
 
+![](img/git-clone.gif)
+
 7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed `Atom` and also an `Atom` packge named `markdown-preview-enhanced`.
 
 Once `Atom` is opened, press `crtl+shift+a` to open the open project dialog window, naviagte to `geog571` folder from your workspace and press `select folder`. Then the `geog571` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
@@ -156,6 +158,8 @@ Updating 13b2cab..baf74b1
 Fast-forward
  readme.md | 3 ++-
 ```
+
+![](img/git-pull.gif)
 
 Now, the course material on your local computer is updated.
 
