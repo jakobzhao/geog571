@@ -4,7 +4,7 @@
 >
 > **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** T 1200 to 1350
 >
-> **Assigned:**  | **Due:**  | **Points Available** = 50
+> **Assigned:** 1/8/2019 | **Due:**  1/14/2019 23:59:59 | **Points Available** = 50
 
 Welcome to the lab session of **GEOG 571: Web Mapping**! In this lab, we will briefly introduce the Digital Earth Lab at Wilkinson 210, download the course material and more importantly, help you get familiar with the major operations on project management for web mapping. In practice, you will use the lab computer, if you use a personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
@@ -22,9 +22,10 @@ For this lab, you will use chrome, git and atom. Also these software products ha
 
 - **Atom:** A professional web mapping programming development environment ([Click here to download](https://atom.io/)). Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. It can also be used as an integrated development environment (IDE). Its developers call it a "hackable text editor for the 21st Century".;
 
-- **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps;and
+- **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](img/install-chrome.gif) to see a demo on how to install Google Chrome**;
 
-- **Git:** A version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano.
+- **Git:** A version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. **Click [here](img/install-git.gif) to see a demo on  how to install git**.
+
 
 > **Note: What is an integrated development environment (IDE)?**
 > IDE is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger. Most modern IDEs have intelligent code completion. The boundary between an integrated development environment and other parts of the broader software development environment is not well-defined. Sometimes a version control system, or various tools to simplify the construction of a graphical user interface (GUI), are integrated. Many modern IDEs also have a class browser, an object browser, and a class hierarchy diagram, for use in object-oriented software development.
@@ -124,7 +125,7 @@ In the root directory, there are folders like labs, lectures and readings, and f
 
 7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed `Atom` and also an `Atom` packge named `markdown-preview-enhanced`.
 
-Once `Atom` is opened, press `crtl+shift+a` to open the open prjoect dialog window, naviagte to `geog571` folder from your workspace and press `select folder`. Then the `geog571` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
+Once `Atom` is opened, press `crtl+shift+a` to open the open project dialog window, naviagte to `geog571` folder from your workspace and press `select folder`. Then the `geog571` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
 
 ![](img/atom-open-project.png)
 
@@ -342,8 +343,8 @@ Before submitting this lab, please make sure both the **GitHub repository** and 
 * A block quote (5 POINTS);
 * Several url links (5 POINTS);
 * One or several images (10 POINTS);
-* A list (5 POINTS);
-* A table (5 POINTS); and
+* A list (5 POINTS); and
+* A table (5 POINTS);
 
 > **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.***
 
