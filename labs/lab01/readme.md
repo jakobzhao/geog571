@@ -90,7 +90,7 @@ C:\Users\[your_username]>
 5\. Having the **git url**, we will need to use the command `git clone` to clone the GitHub repository to your local computer.
 
  ```powershell
-C:\Workspace\git clone https://github.com/jakobzhao/geog571.git
+C:\[you_username]\workspace\git clone https://github.com/jakobzhao/geog571.git
 Cloning into 'geog571'...
 remote: Counting objects: 962, done.
 remote: Compressing objects: 100% (750/750), done.
@@ -103,13 +103,13 @@ Checking out files: 100% (650/650), done.
 6\. To review the files and folders in the downloaded/cloned repository, you need to `cd` into the root directory of this repository. If you are on a Mac or Linux, type `ls` to check the file list of this repository, or try `dir` if you are on a Windows. Take windows for example.
 
 ```powershell
-C:\Workspace>cd geog571
+C:\[you_username]\workspace>cd geog571
 
-C:\Workspace\geog571>dir
+C:\[you_username]\workspace\geog571>dir
  Volume in drive C has no label.
  Volume Serial Number is 3E8C-9A9E
 
- Directory of c:\Workspace\geog571
+ Directory of C:\[you_username]\workspace\geog571
 
 09/19/2017  09:12 PM    <DIR>          .
 09/19/2017  09:12 PM    <DIR>          ..
@@ -142,10 +142,10 @@ In the project list panel, navigate to the `readme.md` in the project tree panel
 8\. Once the course material is hosted on GitHub, it can be easily shared with a larger community. To synchronize the course material on remote GitHub repository to your local computer, you need to implement two sequential command lines `git checkout --force` and `git pull` in the root directory of the repository. Once the two commands are executed. An update notice will be shown as below.
 
 ```powershell
-C:\Workspace\geog571>git checkout --force
+C:\[you_username]\workspace\geog571>git checkout --force
 Your branch is up-to-date with 'origin/master'.
 
-C:\Workspace\geog571>git pull
+C:\[you_username]\workspace\geog571>git pull
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
@@ -159,11 +159,9 @@ Fast-forward
 
 Now, the course material on your local computer is updated.
 
-> If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git clone`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
+> If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git pull`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
 
-
-> **Note:** To ensure you are reading the latest version of the lecture or lab handouts, **you need to regularly synchronize the course material, especially so before the beginin of each class.**
->
+> **Note:** To ensure you are reading the latest version of the lecture or lab handouts, **you need to regularly synchronize the course material, especially so before the beginin of each class.** To do that, please jsut repeat this step to run the command combination `git checkout --force` and `git pull` again.
 
 9\. Before we jump to the next section, please:
 
@@ -333,6 +331,10 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 2\. On the `GitHub Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
 3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[account_username].github.io/resume`.
+
+> **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository (which is much latest) using Atom. To do that, right click the github operation status on the bottom bar, and select the option `Pull`.
+
+
 
 ## 4. Deliverable
 
