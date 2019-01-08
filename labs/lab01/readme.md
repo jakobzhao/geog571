@@ -159,9 +159,11 @@ Fast-forward
 
 Now, the course material on your local computer is updated.
 
+> If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git clone`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
+
+
 > **Note:** To ensure you are reading the latest version of the lecture or lab handouts, **you need to regularly synchronize the course material, especially so before the beginin of each class.**
 >
-> If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git clone`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
 
 9\. Before we jump to the next section, please:
 
@@ -171,21 +173,21 @@ Now, the course material on your local computer is updated.
 
 ## 3\. Project management
 
-In this section, we will introduce a series of operations related to project management, such as create a project repository, compile a markdown file, and upload files to GitHub, and at last, publish a repository. As a practice, we will build a GitHub repository for your online resume. To see an integrated demo of this section, please check [here](img/repo-git.md)
+In this section, we will introduce a series of operations related to project management, such as create a project repository, compile a markdown file, and upload files to GitHub, and at last, publish a repository. As a practice, we will build a GitHub repository for your online resume. To see an integrated demo of this section, please check [here](img/repo-git.md).
 
 ### 3.1 Create a repository for your project
 
-1\. Navigate to [https://github.com/new](https://github.com/new), and input your repository name in the blank text box for `Repository name`. Here, please name your repository in the format of **[account_username].github.io**. So, if your account_username is `jakobzhao`, this repository name will be **jakobzhao.github.io**.
+1\. Navigate to [https://github.com/new](https://github.com/new), and input your repository name in the blank text box for `Repository name`. Here, please name your repository in the format of **[account_username].github.io**. For example, if your account_username is `geovizlabtest`, this repository name will be **geovizlabtest.github.io**.
 
-![""](img/create-new-repository-2.jpg)
+![""](img/create-new-repository-2.png)
 
 2\. Besides, make sure you **CHECK** the box `Initialize this repository with a README`. You can leave other options by default.
 
-![](img/create-new-repository-3.jpg)
+![](img/create-new-repository-3.png)
 
-3\. Next, click the `Create repository` button. As a result, a new repository `[account_username].github.io` is created. You can access this repository through the link `https://github.com/[account_username]/[account_username].github.io`. For example,  you can access the repository I created through this link [https://github.com/jakobzhao/jakobzhao.github.io](https://github.com/jakobzhao/jakobzhao.github.io).
+3\. Next, click the `Create repository` button. As a result, a new repository `[account_username].github.io` is created. You can access this repository through the link `https://github.com/[account_username]/[account_username].github.io`. For example,  you can access the repository I created through this link [https://github.com/geovizlabtest/geovizlabtest.github.io](https://github.com/geovizlabtest/geovizlabtest.github.io).
 
-### 3.2 Craft a Markdown file
+### 3.2 Compose a Markdown file
 
 1\. On your local computer, create a text file, and name it `resume.md`.
 
@@ -268,7 +270,7 @@ Once you have drafted out your resume in the `resume.md` file. You will upload t
 
 > **Note:** Certainly, you can drag and drop multiple files and/or folders. In this lab, we just upload one single file.
 
-![](img/after-the-drop.jpg)
+![](img/after-the-drop-cropped.jpg)
 
 3\. Before pressing the green button `Commit Changes`, you might want to add a title and/or some descriptions for this commit. It will help you organize your commits.
 
@@ -331,9 +333,6 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 2\. On the `GitHub Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
 3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[account_username].github.io/resume`.
-
-
-![](img/repo-git.md)
 
 ## 4. Deliverable
 

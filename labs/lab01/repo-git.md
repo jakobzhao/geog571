@@ -1,1 +1,1 @@
-!()[img/repo-git.md]
+!()[img/repo-git.gif]
