@@ -260,7 +260,7 @@ Summary of your role
 
 ### 3.3 Upload files to GitHub
 
-Once you have drafted out your resume in the `resume.md` file. You will upload this file to the **root** of the project repository `https://github.com/[account_username]/[account_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one. Notably, **among these three options, we recommend you choose the third one - `Atom based commit and push`.**
+Once you have drafted out your resume in the `resume.md` file. You will upload this file to the **root** of the project repository `https://github.com/[account_username]/[account_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
 
 #### 3.3.1 Drag & drop
 
@@ -320,7 +320,7 @@ We can also use `Atom` to upload files to GitHub repository or more generally, c
 
 > **Note:** As you might already aware of, the first two steps are as same as those in the approache 2 (3.3.2). The difference is, approach 2 works on a terminal/command prompt environment (a command-lline user interface), while approach 3 works in Atom (a graphic user interface).
 >
-> Using either of the three approaches (3.3.1 to 3.3.3), you can upload your resume or any other files to GitHub. Then, log on to this repository on GitHub to see whether the uploaded content is applied.
+> Using either of the three approaches (3.3.1 to 3.3.3), you can upload your resume or any other files to GitHub. Then, log on to this repository on GitHub to see whether the uploaded content is applied. However, the third one - `Atom based commit and push`.** (3.3.3) is recommended. 
 
 Now you have already known how to commit a change. In practice, you will use this operation very frequently. Other than committing changes, you may also need to synchronize, both fetch and push, the latest version of your GitHub repository.
 
@@ -338,7 +338,7 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 Before submitting this lab, please make sure both the **GitHub repository** and the **GitHub page** work properly. In this lab, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[account_username]/[account_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
-1\. A GitHub account is registered, You have followed the instructor's GitHub account and `star-ed` the course GitHub repository. (6 POINTS)
+1\. A GitHub account is registered, You have followed the instructor's GitHub account and `star-ed` the course GitHub repository. (8 POINTS)
 
 2\. The repository should be named after `[account_username].github.io`. (5 POINTS)
 
@@ -346,13 +346,21 @@ Before submitting this lab, please make sure both the **GitHub repository** and 
 
 4\. To hone your skills in generating Markdown files, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your resume. In terms of the format, your online resume should contain:
 
-* Different levels of headers (4 POINTS);
+* Different levels of headers (8 POINTS);
 * A block quote (5 POINTS);
-* Several url links (5 POINTS);
-* One or several images (10 POINTS);
-* A list (5 POINTS); and
-* A table (5 POINTS);
+* Several url links (6 POINTS);
+* One or several images (6 POINTS); and
+* A list (7 POINTS);
+
+#### Optional Tasks
+
+5\. Please further customize your resume to have the following features:
+
+* adding emoji icons to the resume. Here is [a cheatsheet of emoji icons](https://gist.github.com/rxaviers/7360908). (2 POINTS)
+* adding a table to the resume. To do that, you might need to use [Typora](https://typora.io/). (3 POINTS).
+
 
 > **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.***
+
 
 > If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
