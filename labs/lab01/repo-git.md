@@ -1,1 +1,1 @@
-!()[img/repo-git.gif]
+![](img/repo-git.gif)
