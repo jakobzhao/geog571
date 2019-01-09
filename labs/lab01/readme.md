@@ -18,14 +18,14 @@ The lab generally opens 8am-5pm , a detailed schedule can be found at [http://du
 
 ## 1.2 Gearing up the software environment
 
-For this lab, you will use chrome, git and atom. Also these software products have already been installed in the lab computers. But I highly recommend you to install all these three.
+For this lab, you will use chrome, git and atom. Also these software products have already been installed in the lab computers. But I highly recommend you to install all these three in your own laptop if you prefer working in your own developement environment.
 
 
 - **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;
 
-- **Git:** A version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. **Click [here](install-git.md) to see a demo on  how to install git**.
+- **Git:** A version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. **Click [here](install-git.md) to see a demo on  how to install git**; and
 
-- **Atom:** A professional web mapping programming development environment ([Click here to download](https://atom.io/)). Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. It can also be used as an integrated development environment (IDE). Its developers call it a "hackable text editor for the 21st Century".  **Click [here](install-atom.md) to see a demo on how to install Atom**;
+- **Atom:** A professional web mapping programming development environment ([Click here to download](https://atom.io/)). Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. It can also be used as an integrated development environment (IDE). Its developers call it a "hackable text editor for the 21st Century".  **Click [here](install-atom.md) to see a demo on how to install Atom**.
 
 
 > **Note: What is an integrated development environment (IDE)?**
@@ -48,7 +48,7 @@ Using `git`, you can synchronize the course materials and also publish your own 
 
 ### 1.3 Register a GitHub account
 
-You will apply for a GitHub account for managing and synchronizing your web mapping project. If you do not have a GitHub account yet, please sign up at [https://www.github.com](https://www.github.com). Notably, you will need to choose a username. This username will be used as a part of the domain name of your home github ['username'.github.io](). So, make sure this username is succinct, simple and English-character only. Apparently, an easily-recognized domain name is more popular.
+You will apply for a GitHub account for managing and synchronizing your web mapping project. If you do not have a GitHub account yet, please sign up at [https://www.github.com](https://www.github.com). Notably, you will need to choose a username. It is worth noting that, **this username will be used as a part of the domain name of your home github ['username'.github.io](). So, make sure this username is succinct, simple and English-character only. Apparently, an easily-recognized domain name is more popular.**
 
 > **Note: Do you know the differences between Git and GitHub?**
 >
@@ -90,7 +90,7 @@ C:\Users\[your_username]>
 5\. Having the **git url**, we will need to use the command `git clone` to clone the GitHub repository to your local computer.
 
  ```powershell
-C:\Users\[you_username]\workspace\git clone https://github.com/jakobzhao/geog571.git
+C:\Users\[you_username]\workspace\>git clone https://github.com/jakobzhao/geog571.git
 Cloning into 'geog571'...
 remote: Counting objects: 962, done.
 remote: Compressing objects: 100% (750/750), done.
