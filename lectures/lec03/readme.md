@@ -18,7 +18,7 @@ Today, let us switch gear to some heavy lifting of Web Programming. This lecture
 
 A web page is a document suitable for display and distribution over the internet. At the most basic level, a web page is a text document containing code (often HyperText Markup Language, shortened to `HTML`), that is located at a node on the internet. This node is called a 'server', as it serves the file to the world wide web, allowing your computer, the 'client', to access it.
 
-When you open a web browser, such as `Chrome`, `Firefox` or `Internet Explorer`, and input a URL, something like www.oregonstate.edu into the address bar, the web browser navigates to the node you have specified and requests this document, which it reads, interprets, and displays on your screen depending on the interpretation of the document. This means a couple of things:
+When you open a web browser, such as `Chrome`, `Firefox` or `Internet Explorer`, and input a URL, something like www.google.com into the address bar, the web browser navigates to the web terminal you have specified and requests this document, which it reads, interprets, and displays on your screen depending on the interpretation of the document. This means a couple of things:
 
     - You need to have a location (url) on the internet you can place your documents.
     - You have to create and place the right kinds of documents in this location.
@@ -53,7 +53,7 @@ To host a web application, you need to move the codes and the supplemental files
 
 ## 3. Use an IDE
 
-While you can get away with using a basic text editor to create HTML files, there are Integrated Development Environment (IDE) designed to make your life easier by color coding code snips and autocompleting lines. Download and install one of the following text editing software if you don’t already have one. In this lecture, you will mainly use `Webstorm` to edit HTML, CSS, and Javascript files. We also have `Webstorm` installed in the Digital Earth Lab, and you can install an educational version of `Webstorm` on your own machine, no matter you are a Mac or Windows users.
+While you can get away with using a basic text editor to create HTML files, there are Integrated Development Environment (IDE) designed to make your life easier by color coding code snips and autocompleting lines. Download and install one of the following text editing software if you don’t already have one. In this lecture, you will mainly use `Atom` to edit HTML, CSS, and Javascript files. We also have `Atom` installed in the Digital Earth Lab, and you can install an open source version of `Atom` on your own machine, no matter you are a Mac or Windows users. Here is a list of other IDEs:
 
 - `Webstorm` - (Windows, Mac, or Linux) One of cross-platform IDEs primarily for web, JavaScript and TypeScript development. Many of JetBrain's other IDEs include the feature set of WebStorm via plugins.
 - `Sublime Text` – (Windows, Mac, or Linux) One of the most popular and well-loved text editors around. Free to download and use, but will occasionally show a pop-up window if you don’t purchase it. This is what I’ll be using during the workshop
@@ -61,8 +61,6 @@ While you can get away with using a basic text editor to create HTML files, ther
 - `Notepad++` – A solid and reliable text editor for Windows. Free.
 - `TextWrangler` – A free text editor for Mac only.
 - `DreamWeaver` – Adobe’s software for making basic websites. This is not free generally, but many students already have it installed. This software can sometimes make simple tasks far more complicated than necessary. Not recommended, but if you already have it and you don’t want two install anything else, I will grudgingly acknowledge that it will work just fine for the workshop.
-
-Enough front matter, let's get going on our web page!
 
 ## 4. Start up a Web Server
 
@@ -85,6 +83,7 @@ $ python -m SimpleHTTPServer 80
 Now you can access your site **http://localhost** without specifying a port.
 
 Other than setting up a server environment through python SimpleHTTPServer, you can also If you work in `Atom` (what we suggested for this course), you do not need to start the Python server by inputting commands in the Terminal or Command promt. In Atom's main window, please press a key combination `Ctrl` + `Alt` + `l` to open up a live server. In this way, a server environment will automatically launch, and a browser showing the front page of the server will be opened up.
+<<<<<<< HEAD
 
  Sometimes, you will need to relaunch the live server, so you can stop the server by pressing `Ctrl` + `Alt` + `q`, and then quickly start it by pressing `Ctrl` + `Alt` + `l`. Also, to set up the server on a dedicated port, or you want to set up multiple server for testing purpose, please refer to the commands below:
 
@@ -101,6 +100,23 @@ The best part of the Atom's live server is that it can simultaneously visualize 
 ![](img/live-server.gif)
 
 
+=======
+
+ Sometimes, you will need to relaunch the live server, so you can stop the server by pressing `Ctrl` + `Alt` + `q`, and then quickly start it by pressing `Ctrl` + `Alt` + `l`. Also, to set up the server on a dedicated port, or you want to set up multiple server for testing purpose, please refer to the commands below:
+
+`Ctrl` + `Alt` + `3` launch live server on port 3000.
+
+`Ctrl` + `Alt` + `4`launch live server on port 4000.
+
+`Ctrl` + `Alt` + `5` launch live server on port 5000.
+
+`Ctrl` + `Alt` + `8` launch live server on port 8000.
+
+The best part of the Atom's live server is that it can simultaneously visualize the change of the code as a new web page in the browser. Most IDEs do not provide this live-update feature. Conventionally, once a change has been made, you will need to stop the server and relaunch it again to ensure the change is applied to the web page. In this sense, this feature has greatly increase the efficency of web programming.
+
+![](https://i.github-camo.com/80362269abcbd6c9f78c1441b0f6de285a88e773/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a61732d6368656e2f61746f6d2d6c6976652d7365727665722f6d61737465722f646f632f64656d6f2e676966)
+
+>>>>>>> 9a65df8cbd255988d3cdb29a8f182cca6bfb4d6c
  > For more detailed information about the integrated live server on atom, please refer to [https://atom.io/packages/atom-live-server](https://atom.io/packages/atom-live-server).
 
 ## 5. HTML: The Core Concepts
