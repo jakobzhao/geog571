@@ -771,9 +771,12 @@ Please create a lab report as a word document, and answer all the following ques
 
 #### Optional task
 
-**Question 11.** Please briefly describe how to launch the atom live server to port 5000 on localhost (127.0.0.1).  --  2 POINTS
+**Question 11.** Please briefly describe how to launch the atom live server to port 5000 on localhost (127.0.0.1).  --  1 POINTS
 
-**Question 12.** 
+**Question 12.** Please list two ways to activate the inspector of Google Chrome.  -- 1 POINTS
+
+**Question 13.** Assume a repository of course material has already been cloned to your local computer. In the class, you have annotated some markdown files in the local repository as a convenient way to take notes. Do you think it is an appropriate way to do that? Please describe the reasons why. If it is not an appropriate, please list your suggestion. -- 3 POINTS
+
 
 
 Once you finish this lab, you need to submit the lab report to **Canvas Dropbox**. On the assignment tab,  check the item of this lab, press the `Submit Assignment` button to submit your lab report. Please contact the instructor or TA if you have any difficulty. Note: only submit your lab report in Word or PDF format.
