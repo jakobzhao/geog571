@@ -8,7 +8,6 @@
 
 - Understand how to organize files on a server.
 - Get to know the web development environment (IDE);
-- Understand the basic command or terminal operations to navigate and locate a directory;
 - Set up a testing/debugging web server; and
 - Walk through the basics of HTML and CSS;
 
@@ -397,9 +396,10 @@ CSS follows the DOM model, with styles applied to elements higher in the DOM app
 
 There are two general rules.
 
-- CSS defined last in your document will supersede CSS set on a selector earlier in your document.
-- The more specific selector will override the less specific selector. For example, a style set on the body selector will be overridden by a style set on an element within the body, such as one by ID.
+- **CSS defined last in your document will supersede CSS set on a selector earlier in your document.**
+- **The more specific selector will override the less specific selector. For example, a style set on the body selector will be overridden by a style set on an element within the body, such as one by ID.**
 
+> **Note:** The `!important` rule is a way to make your CSS cascade but also have the rules you feel are most crucial always be applied. A rule that has the !important property will always be applied no matter where that rule appears in the CSS document.
 
 ### Properties and Values
 
