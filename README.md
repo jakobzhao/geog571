@@ -17,7 +17,7 @@ Welcome to GEOG571:Web Mapping :earth_americas:! This course introduces concepts
 | :---: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 | Wk 01 |    [Intro to the Course](lectures/lec01), [Gear Up! :gear:](resources/gearup.md)    |   [Internet Fundamentals](lectures/lec00)   | [Lab 1: Project Management for Web Mapping](labs/lab01)  |  [Intro to Web Mapping](lectures/lec02)  | [Markdown, Links and Command Lines](readings/wk01.md) |
 | Wk 02 | [Web Programming Basics I: HTML 5 and CSS](lectures/lec03) | [System Architecture for Web Mapping](lectures/lec04) | [Lab 2: Web Programming Basics II: Javascript](labs/lab02) | [Web Programming Basics III: JQuery](lectures/lec05) | [HTML, CSS and Javascript](readings/wk02.md) |
-| Wk 03 | *MLK Day* |  [Web Programming Basics IV: Debugging](lectures/lec05) and [debugging](https://scotch.io/tutorials/debugging-javascript-with-chrome-devtools-breakpoints) :bug: |          [Lab 3: Web Map Design](labs/lab03/readme.md)           |[Spatial Data for Web Mapping](lectures/lec06)  | Cont'd with last week's reading  [Leaflet and GeoJson](readings/wk03.md)  |
+| Wk 03 | *MLK Day* |  [Web Programming Basics IV: Debugging](lectures/lec05) and [debugging](https://scotch.io/tutorials/debugging-javascript-with-chrome-devtools-breakpoints) :bug:, [*Final Project Guidelines*](project/readme.md) |          [Lab 3: Web Map Design](labs/lab03/readme.md)           |[Spatial Data for Web Mapping](lectures/lec06)  | Cont'd with last week's reading  [Leaflet and GeoJson](readings/wk03.md)  |
 | Wk 04 |  [Map Client I: Basics and Geographic Features](lectures/lec07) | [Map Client II: Map Events and Mashup](lectures/lec08)  |              Lab 3: Cont'd               |  [Map Client III: Web Map Interaction](lectures/lec09) |    [GeoServer Documentation](readings/wk04.md)    |
 | Wk 05 |  [Map Server I: Intro to GeoServer](lectures/lec10)   | [Map Server II: Styling](lectures/lec11)    |          [Lab 4: Web Map Services and Basemap](labs/lab04/)  |  [Map Server III: Web Map Services](lectures/lec12)  | [Bing Map Tile, WFS and WMS](readings/wk05.md) |
 | Wk 06 |       [Map Server IV: Base Map Design using Mapbox](lectures/lec13)                   |   [Map Server V: Map Tiles](lectures/lec14)    |              Lab 4: Cont'd               |   Midterm Exam  | [Bootstrap Documentation](readings/wk06.md) |
@@ -30,10 +30,10 @@ Welcome to GEOG571:Web Mapping :earth_americas:! This course introduces concepts
 
 ### Course Project :star:
 -  [Final Project Guidelines](project/readme.md)
- - [Guideline](project/readme.md) (WK02)
- - [Proposal]() (WK03)
- - [Data Source](project/datasource.md) (WK04)
- - [Interface Sketch](project/sketch.md) (WK05)
+ - [Guideline](project/readme.md) (WK03)
+ - [Proposal]() (WK04)
+ - [Data Source](project/datasource.md) (WK04/5)
+ - [Interface Sketch](project/sketch.md) (WK06)
  - [Map Critique](lectures/lec22) (WK08)
  - [Peer Review]() (WK10)
  - [Final Presentation]() (WK10)
