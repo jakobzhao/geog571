@@ -41,9 +41,9 @@ The latest stable Leaflet release is hosted on a CDN — to start using it strai
 
 The first step is to create a project working directory which holds all the files. To do that, we will create a project repository on github, and then sync the empty repository to your **working space** on local computer. If you have any question on how to conduct the above-mentioned operations, please refer to lab 1.
 
-### 2.2 Use an IDE (Webstorm) or command line to start up a server
+### 2.2 Use an IDE (Atom) or command line to start up a server
 
-To set up a local server, you can try Webstorm or python SimpleHTTPServer, such as:
+To set up a local server, you can try Atom or python SimpleHTTPServer, such as:
 
 ```bash
 $ python -m SimpleHTTPServer
@@ -51,14 +51,14 @@ $ python -m SimpleHTTPServer
 
 Now open a browser and access your site at: http://localhost:8000
 
-> **Note:** Compared with python SimpleHTTPServer, we recommend to use webstorm.
+> **Note:** Compared with python SimpleHTTPServer, we recommend to use Atom.
 
 ## 3. Create a Webpage and Simple Map
 
 
 ### 3.1 Setup a web page for our map
 
-Open up your Webstorm, and then we set up an empty **index.html** template for our web page that will contain our web map and web map elements. The components will be the same as always, note the head, title, and body.
+Open up your Atom, and then we set up an empty **index.html** template for our web page that will contain our web map and web map elements. The components will be the same as always, note the head, title, and body.
 
 Enter the following code into your blank HTML page.
 
@@ -138,7 +138,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 **Base Map**
 
-Save your HTML document and open your web browser to your localhost server (http://localhost:8000). You will see the map we just created! Or you can open this map through the internal web server of Webstorm. After you synchronize your data to Github, you can even see your web map on the github page website.
+Save your HTML document and open your web browser to your localhost server (http://localhost:8000). You will see the map we just created! Or you can open this map through the internal web server of Atom. After you synchronize your data to Github, you can even see your web map on the github page website.
 
 ![](img/basemap.jpg)
 
