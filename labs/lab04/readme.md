@@ -1,4 +1,4 @@
-# Lab 4: Web Map Services and Basemap
+# Lab 4: Basemap Design
 
 > Winter 2018 | Geography 571 | Web Mapping
 >
