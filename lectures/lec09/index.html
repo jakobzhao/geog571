@@ -27,8 +27,8 @@
             padding: 6px 8px;
             font: 14px Arial, Helvetica, sans-serif;
             text-align: right;
-            background: white;
-            background: rgba(255, 255, 255, 0.8);
+            /* background: white; */
+            background: rgba(255, 255, 255, 0.1);
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
         }
@@ -72,7 +72,7 @@
 
     // 1. create the map object and the base layer.
     var map = L.map('map').setView([37.8, -96], 5);
-    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2X.png').addTo(map);
 
 
     // 2. Create the chorepleth map with interactive functions.
@@ -81,7 +81,7 @@
 
     // determine the color.md ramp. The number of colors is determined by the number of classes.
     // try different interpolation method lch, lab, hsl
-    var colors = chroma.scale(['yellow', 'navy']).mode('hsl').colors(grades.length);
+    //var colors = chroma.scale(['pink', 'navy']).mode('lch').colors(grades.length);
     var colors = chroma.scale('YlOrRd').colors(grades.length);
 
     // get the color.md based on the class which the input value falls in.
