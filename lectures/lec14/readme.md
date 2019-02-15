@@ -1,4 +1,4 @@
-# Map Server V: Map Tiles
+00sa# Map Server V: Map Tiles
 
 > Winter 2019 | Geography 571 | Web Mapping
 >
@@ -332,4 +332,3 @@ Here is what the final output looks like **[here](http://jakobzhao.github.io/geo
 
 1. https://www.e-education.psu.edu/geog585/node/706
 2. [https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system)
-
