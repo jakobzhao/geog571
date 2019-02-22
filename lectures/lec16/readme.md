@@ -9,11 +9,10 @@
 Add a series of web elements, including
 - favicon,
 - text font,
-- control object,
 - social media component, and
 - an about page.
 
-In this lecture, we will continue to work on the story map, but enrich the map with a lot of web features. Most of the features we will discuss today are based on Bootstrap.
+In this lecture, we will continue to work on web features. Most of the features we will discuss today are based on Bootstrap.
 
 ## 1. Add a favicon
 
@@ -50,69 +49,21 @@ Traditionally, a font is loaded into your page only if you have it on your compu
 
 ```html
 <!--use a better font for this web map-->
-<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 ```
 
 Next, to style all text in our document with the Open Sans font, modify the body tag in the CSS (the code between the style tags). Modify the body CSS properties to look like the following, adding a font-family property after margin.
 
 ```css
 body {
-    font-family: Cairo, sans-serif;
+    font-family: Lobster, sans-serif;
 }
 ```
 
 Save and refresh your map. Open Sans will now be your preferred font!
 
-## 3. Control Object
 
-Inspired by the web map entitled ["California,s Getting Fracked"](http://www.facesoffracking.org/data-visualization/),  we found that a scrolling down arrow will help the audience reading the web map. Thinking about the working logics of the scrolling-down arrow, it should be an clickable arrow icon on one corner of the web map application. If hovering on the arrow, the color of arrow will be changed, and if clicking the arrow, the text panel should be scrolled down.
-
-Bootstrap provides a set of icons for web design usage. Regarding the scrolling-down function, we look for an arrow icon at [http://bootsnipp.com/buttons](http://bootsnipp.com/buttons), and finally identify one - `glyphicon-chevron-down`. Since the icon controls the texts, we prefer to put it under the text panel and as the very last element.
-
-```html
-<div class="col-sm-6 col-md-4 main">
-<section />
-<section />
-<section />
-...
- <!--add an arrow for scrolling down the texts-->
- <div class="glyphicon glyphicon-menu-down glyphicon-align-center arrow-down"></div>
-</div>
-```
-
-In order to put it on the right place and display properly, we define its style in `css\style-new.css`.
-
-```css
-.arrow-down {
-    position:fixed;
-    top:90%;
-    cursor: pointer;
-    z-index:1002;
-    font-size: 60px;
-    color: #a5a5a5;
-}
-
-.arrow-down:hover {
-    color: #0e0e0e;
-
-}
-```
-
-Also, to make it clickable, we add an click event in the `storymap.js` javascript between **line 124 to 128**. We select the scrolling down arrow element via its className, and add a function to make sure that it will scroll in a length that equals to one third of the total height of the window.
-
-```js
- var downBtn = element.find('.arrow-down');
-
-             downBtn.click(function () {
-                 window.scrollBy(0, $(window).height() / 3);
-             });
-```
-
-Till now, a control object is properly added. You can test it by clicking on the arrow.
-
-![](img/scrolling-down-arrow.png)
-
-## 4. Add a Social Media Component
+## 3. Add a Social Media Component
 
 A social media button will help you spread a web map to more audience. This lecture only walk you through how to share the web map to Facebook, the ways to share to other social media applications are supposed to be quite similar.
 
@@ -120,27 +71,31 @@ To find a Facebook icon, we will use [Font Awesome](http://fontawesome.io), whic
 
 ```html
 <!--facebook and info icons-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 ```
 
 At [http://fontawesome.io/icons/](http://fontawesome.io/icons/), we search the term `facebook` in the search box.
 
 ![](img/awesome-font-search.png)
 
+After you pick up the icon (the facebook-square) you would like to use, a new web page will appear gives you a seires of options to use this icon. Then, please click the "Start Using This Icon" Button.
+
+![](img/start-using.png)
+
 Then, we can find the classname of the Facebook icon at [http://fontawesome.io/icon/facebook-square/](http://fontawesome.io/icon/facebook-square/).
+
 
 ![](img/facebook-icon.png)
 
-As shown, the class for the facebook icon is **"fa fa-facebook-square"**. So, we add a link as below:
+As shown, the class for the facebook icon is **"fab fa-facebook-square"**. So, we add a link as below:
 
 ```html
 <!--facebook icon-->
-<a class="fa fa-facebook-square social" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html" target="_blank"></a>
+<a class="fab fa-facebook-square" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/atlas.html" target="_blank"></a>
 ```
-This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html`. Basically, the url `http://jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.htm` indicates where this web map application is deployed.
+This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/atlas.html`.  The url `jakobzhao.github.io/geog371/lectures/lec16/atlas.html` indicates where this web map application is deployed.
 
-In order to put it on the right place and display properly, we define its style in `css\style-new.css`.
+In order to put it on the right place and display properly, we define its style as.
 
 ```css
 .social {
@@ -169,13 +124,12 @@ Once you click on the facebook button, you will creat a new tab as showing below
 
 >**Note:** If you want to generate urls for other social media platform, please go to [http://www.sharelinkgenerator.com/](http://www.sharelinkgenerator.com/). This web site provides a handy tool for generate urls for Facebook, Twitter, LinkedIn, etc. A more detailed tutorial on generating url for sharing on Facebook can be found at [https://developers.facebook.com/docs/plugins/share-button](https://developers.facebook.com/docs/plugins/share-button).
 
-## 5. Add an About Page
+## 4. Add an About Page
 
 Similar to the Facebook button, we create another button under the Facebook button. This button can invoke the about page.  This button shows an info-circle icon and lies right under the facebook button.
 
 ```html
-<!--info icon-->
-<i class="fa fa-info-circle social" style="top:8%" data-toggle="modal" data-target="#info-modal"></i>
+<h3 data-toggle="modal" data-target="#info-modal">Chapters</h3>
 ```
 
 And then, we add a dialog. If the button is clicked, this dialog will be popped up.
@@ -186,14 +140,11 @@ And then, we add a dialog. If the button is clicked, this dialog will be popped 
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+              <h4 class="modal-title">About</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">About</h4>
             </div>
             <div class="modal-body">
-                <p>...</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <p>place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder</p>
             </div>
         </div>
     </div>
@@ -228,14 +179,6 @@ The `<div>` with `class="modal-content`" styles the modal (border, background
 The `.modal-header` class is used to define the style for the header of the modal. The `<button>` inside the header has a `data-dismiss="modal"` attribute which closes the modal if you click on it. The `.close` class styles the close button, and the `.modal-title`class styles the header with a proper line-height.
 
 The `.modal-body` class is used to define the style for the body of the modal. Add any HTML markup here; paragraphs, images, videos, etc.
-
-The `.modal-footer` class is used to define the style for the footer of the modal. Note that this area is right aligned by default.
-
-## Concluding remark
-
-![](img/final-page.png)
-
-To browse this application, you can visit [jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html](jakobzhao.github.io/geog571/lectures/lec16/storymap_alpha/index.html).
 
 ## References:
 

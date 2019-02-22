@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+    <title>Atlas template page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet"> -->
+    <!--facebook and info icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <style>
+    
         body {
             height: 100%;
             padding: 20px;
             margin: 20px;
-            font-family: lobster, sans-serif;
+            font-family: Lobster, sans-serif;
         }
-
 
         .map {
             padding: 10px;
@@ -53,20 +56,31 @@
             font-family: Roboto, sans-serif;
         }
 
+        .social {
+            position:fixed;
+            cursor: pointer;
+            font-size:24px;
+            color:lightgray;
+            top: 4%;
+            left:5px;
+        }
+        .social:hover {
+            color: darkblue;
+            text-decoration: none
+        }
     </style>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!--add required javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <!-- Page Content -->
 <div class="container">
-
-
-    <div class="row text-center">
+    <!-- <div class="row d-flex justify-content-center"> -->
+    <div class="row justify-content-center">
         <a href="#" target="_blank"><img src="http://via.placeholder.com/180x100"></a>
     </div>
 
@@ -74,10 +88,9 @@
         <div class="col-lg-12">
             <h2>Online Atlas Front Page</h2>
             <hr>
-            <h3>Chapters</h3>
+            <h3 data-toggle="modal" data-target="#info-modal">Chapters</h3>
         </div>
     </div>
-
 
     <hr>
 
@@ -179,12 +192,11 @@
     <hr>
 
     <footer class="container">
-
-        <div class="row text-center">
-            <p> Bo Zhao, Oregon State University, 2017 </p>
+        <div class="row  justify-content-center">
+            <p> Bo Zhao, Oregon State University, 2018 </p>
         </div>
 
-        <div class="row text-center">
+        <div class="row  justify-content-center">
             <a href="#" target="_blank"><img src="http://via.placeholder.com/120x80"></a>
             <a href="#" target="_blank"><img src="http://via.placeholder.com/120x80"></a>
             <a href="#" target="_self"><img src="http://via.placeholder.com/120x80"></a>
@@ -192,8 +204,24 @@
         </div>
     </footer>
 
-
 </div>
+
+<div class="modal fade" id="info-modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">About</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder, place holder</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--facebook icon-->
+<a class="fab fa-facebook-square social" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/atlas.html" target="_blank"></a>
 
 </body>
 </html>
