@@ -91,9 +91,9 @@ As shown, the class for the facebook icon is **"fab fa-facebook-square"**. So, w
 
 ```html
 <!--facebook icon-->
-<a class="fab fa-facebook-square" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/atlas.html" target="_blank"></a>
+<a class="fab fa-facebook-square" href="https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/atlas.html" target="_blank"></a>
 ```
-This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog371/lectures/lec16/atlas.html`.  The url `jakobzhao.github.io/geog371/lectures/lec16/atlas.html` indicates where this web map application is deployed.
+This tag indicates that if we click on it, a new web page will be created, this web page directs to `https://www.facebook.com/sharer/sharer.php?u=jakobzhao.github.io/geog571/lectures/lec16/atlas.html`.  The url `jakobzhao.github.io/geog571/lectures/lec16/atlas.html` indicates where this web map application is deployed.
 
 In order to put it on the right place and display properly, we define its style as.
 
