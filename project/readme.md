@@ -30,7 +30,7 @@ Please submit the url link of your final project's github repository to the fina
 
 ## 3\. Presentation and peer review
 
-Each team (made up of an individual or pair) is expected to present their final project in ~10 minutes. And there will be a F&A session in 2 ~ 3 minutes.  During the final presentation, each student will need to review all final projects and submit your review notes.
+Each team (made up of an individual or pair) is expected to present their final project in ~10 minutes. And there will be a question session in 2 ~ 3 minutes.  During the final presentation, each student will need to review all final projects and submit your review notes.
 
 
 ## 4\. Timeline
