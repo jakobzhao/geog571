@@ -31,17 +31,12 @@ Welcome to GEOG571:Web Mapping :earth_americas:! This course introduces concepts
 | Wk 08 |                   Storytelling with Web Map II, cont'd with the last lecture                    |                                       [Map Design III: User Friendly Design Principles](lectures/lec19)                                      |                       Lab 5: Cont'd                        |  :airplane:  [3D Web Mapping I: Basics](lectures/lec23)  |                   [Cesium Documentation](readings/wk08.md)                   |
 | Wk 09 | [3D Web Mapping I: Basics](lectures/lec23) cont'd |                                                      [Map Design IV: Map Critiques](lectures/lec22)                                                       |   ~~[*Lab 6:  Thematic Map on a Virtual Globe*](labs/lab06)~~    |      [Real-Time Mapping: TweetMap](lectures/lec20)       |                  [Server-Side JavaScript](readings/wk09.md)                  |
 | Wk 10 |                        [Emerging Topics on Web Mapping](lectures/lec26)                         |                                                         Final Project Discussion and Preparation                                                          |          Final Project Discussion and Preparation          | Final Project Discussion and Preparation    |        [Elwood et al. (2012), Sui and Zhao (2015)](readings/wk10.md)         |
-| Wk 11 |    Final Project Presentation  ***Digital Earth Lab Wilkinson 203 March 19th during Noon to 2pm***                                          |                                                                                                         |                  |     |                |
-
-
-
-
-
+| Wk 11 |    Final Project Presentation  ***Digital Earth Lab (Wilkinson 203) March 19th during Noon to 2pm***                                      |                                                                                                         |                  |     |                |
 
 [**Syllabus**](resources/geog571-syllabus.pdf)
 
 ### Course Project :star:
--  :triangular_flag_on_post: [Final Project Guidelines](project/readme.md) 
+-  :triangular_flag_on_post: [Final Project Guidelines](project/readme.md)
  - [Guideline](project/readme.md) (WK03)
  - [Proposal]() (WK04)
  - [Data Source](project/datasource.md) (WK04/5)
