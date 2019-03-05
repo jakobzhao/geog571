@@ -1,10 +1,4 @@
-# Practical Exercise 6: 3D Thematic Map using a Virtual Globe
-
-> Winter 2018 | Geography 571 | Web Mapping
->
-> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** T 1200 to 1350
->
-> **Assigned:**  | **Due:**  | **Points Available** = 50
+# *(Cancelled)* Lab 6: 3D Thematic Map using a Virtual Globe
 
 During the last week, we have learned how to use a virtual globe to make a 3D thematic map. To do that, some of the most frequently used virtual globe libraries are [three.js](https://threejs.org/) and [cesium.js](http://cesiumjs.org/). While three.js is more compatible with other 3D web applications, cesium.js is dedicated to make virtual globes. As introduced in the lectures, [TerriaJS](http://terria.io/) is an robust open-source geospatial platform built on cesium.js. It provides us with handy tools for navigating, editing and managing geospatial data. If you are interested in using cesium.js for an integrated web mapping application, I would highly recommend writing the codes of [TerriaJS](http://terria.io/) at GitHub. In this lab, you are asked to make a 3D thematic map using cesium.js. The major learning goal is not to have you grasp the state-of-art skills in 3D mapping. Instead, this lab prepares you with fundamental skills of making a 3D thematic map, and provides you an opportunity to reflect on the differences between 2D and 3D web mapping. Okay, let us get started.
 
