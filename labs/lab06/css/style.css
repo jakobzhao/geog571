@@ -12,7 +12,6 @@ html, body, #cesiumContainer {
     color: #a0a0a0;
     font-family: 'Open Sans', sans-serif;
     padding: 6px 8px;
-    background: #000000;
     background: rgba(38, 38, 38, 0.5);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
