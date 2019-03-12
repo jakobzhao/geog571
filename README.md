@@ -50,7 +50,7 @@ Welcome to GEOG571:Web Mapping :earth_americas:! This course introduces concepts
 - [Favicon](lectures/lec16/readme.md)
 - [Videos](resources/video.md)
 - [Images](resources/image.md)
-- [Iconagrpahy](resources/icon.md)
+- [Iconogrpahy](resources/icon.md)
 - [Web Fonts](resources/fonts.md)
 - [Colors](resources/color.md)
 - [Social media](lectures/lec16/readme.md)
